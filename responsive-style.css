@@ -4,6 +4,7 @@
         About Section
     =============================
 */
+
 }
 
 @media (max-width:991px){
@@ -42,7 +43,10 @@ h2{
     padding: 10.875rem 0 9.375rem;
 }
 /* story section */
-
+.story-section{
+    height:auto;
+    padding: 3rem 0;
+}
 /* carousel design */
 
 /*  newsletter */
