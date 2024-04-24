@@ -182,3 +182,45 @@ p{
     -moz-transition: all .3s ease-out ;
     transition: all .3s ease-out;
 }
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+
+}
+/* 
+========================================================
+        by this we remove the focus of the navbar
+======================================================== 
+*/
+.navbar-toggler:focus{
+outline:unset;
+border: unset;
+box-shadow: none;
+}
+.nav-link{
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:var(--primary-color);
+    letter-spacing: 1px;
+}
+.navigation-wrap .main-btn{
+    padding: 0.3125rem 1.4375rem;
+    box-shadow: none;
+    margin-left: 0.625rem;
+}
+/* 
+=================================
+ change navbar styling on scroll
+=================================
+ */
+
+.navigation-wrap .scroll-on{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background:var(--white-color) ;
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0 ,0, 0,0.9) ;
+    transition: all .15s ease-in-out 0s;
+}
