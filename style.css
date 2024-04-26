@@ -403,7 +403,11 @@ padding:0 11% 0.625rem;
     faq section design
 =====================================
 */
-
+.faq h4 span{
+    color: var(--primary-color);
+    font-size: 1.875rem;
+    margin-right:0.3125rem ;
+}
 /* 
 =====================================
     footer section design
