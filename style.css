@@ -446,3 +446,21 @@ padding:0 11% 0.625rem;
     footer section design
 =====================================
 */
+.footer{
+    background: var(--primary-color);
+
+}
+.footer .footer-link{
+    font-size: 1rem;
+    color: var(--white-color);
+    padding: 0 1.875rem;
+}
+.footer .footer-link:hover{
+    color: var(--white-color) !important;
+
+}
+.footer a i{
+    font-size: 1.5rem;
+    color: var(--white-color);
+    padding: 0 1rem;
+}
